@@ -82,6 +82,8 @@ Detailed use case documentation is available in the `docs/` directory.
 ## Completion Status
 
 * UC1:Display Hello world → ✅
+* UC2:Display Hello world with Command-Line Argument  → ✅
+* UC3:Display "Hello" with Command-Line Argument or Default Message  → ✅
 
 ---
 ## 👨‍💻 Author 
