@@ -2,17 +2,17 @@ package com.srivathsan.helloapp;
 
 public class HelloApp {
     public static void main(String[] args) {
-        //UC5
+        //UC6
         String result;
         if (args.length == 0) {
             result = "World";
         } else {
-            StringBuilder sb = new StringBuilder();
+            StringBuilder nameBuilder = new StringBuilder();
             for (String name : args) {
-                sb.append(name).append(", ");
+                nameBuilder.append(name).append(", ");
             }
-            sb.setLength(sb.length() - 2);
-            result = sb.toString();
+            String names = nameBuilder.substring(0, nameBuilder.length() - 2);
+            result = names;
         }
         System.out.println("Hello, " + result + "!");
     }
