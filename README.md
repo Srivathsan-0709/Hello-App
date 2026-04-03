@@ -85,6 +85,7 @@ Detailed use case documentation is available in the `docs/` directory.
 * UC2:Display Hello world with Command-Line Argument  → ✅
 * UC3:Display "Hello" with Command-Line Argument or Default Message  → ✅
 * UC4: Display "Hello" with Multiple Command-Line Arguments or Default Message → ✅
+* UC5: Display "Hello" with Multiple Command-Line Arguments using Enhanced For Loop or Default Message → ✅
 
 ---
 ## 👨‍💻 Author 
